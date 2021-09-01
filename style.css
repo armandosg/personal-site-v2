@@ -14,7 +14,8 @@ body {
 .my-position, 
 .my-photo,
 .my-badges-header,
-.my-badge-image {
+.my-badge-image,
+.social-icons-list {
     text-align: center;
 }
 
@@ -47,10 +48,36 @@ body {
 }
 
 .brief {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 16px;
     line-height: 1.6;
+}
+
+.social-icons-list {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.social-icons-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons-list li:last-child {
+    margin-right: 0px;
+}
+
+.social-icons-list li a {
+    text-decoration: none;
+}
+
+.social-icons-list li a {
+    color: #fff;
+}
+
+.social-icons-list li a:hover {
+    color: #ccc;
 }
 
 .my-badges-header {
