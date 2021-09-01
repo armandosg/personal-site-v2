@@ -24,4 +24,34 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-photo img {
+    margin: 40px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.my-name {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.my-position {
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.brief {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.my-badges-header {
+    margin-bottom: 10px;
 }
