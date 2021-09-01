@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: monospace;
+}
+
 .container {
     width: 50%;
     margin: 0 auto;
